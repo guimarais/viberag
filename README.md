@@ -28,15 +28,21 @@ pip install -r requirements.txt
 python ingest.py
 ```
 
-3. Run the query script:
+3. Start the Streamlit interface:
+```bash
+streamlit run app.py
+```
+
+Alternatively, you can use the command-line interface:
 ```bash
 python query.py
 ```
 
 ## Project Structure
 
+- `app.py`: Streamlit web interface for the RAG system
 - `ingest.py`: Script to process documents and create the vector store
-- `query.py`: Script to perform RAG queries
+- `query.py`: Script to perform RAG queries via command line
 - `rag_utils.py`: Utility functions for the RAG system
 - `documents/`: Folder to store your documents
 - `vectorstore/`: Folder where the ChromaDB vector store is saved

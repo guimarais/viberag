@@ -51,4 +51,9 @@ python query.py
 Make sure to always activate your Conda environment before running the scripts:
 ```bash
 conda activate rag-env
-``` 
+```
+
+## Photo credit
+
+Photo by <a href="https://unsplash.com/@baileyzindel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Bailey Zindel</a> on <a href="https://unsplash.com/photos/body-of-water-surrounded-by-trees-NRQV-hBF10M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      

@@ -50,7 +50,7 @@ def create_or_load_vectorstore(docs: List[str] = None, persist_directory: str = 
 
 def setup_rag_chain(vectorstore):
     """Set up the RAG chain with a custom prompt."""
-    llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0)
+    llm = ChatOpenAI(model_name="gpt-4.1", temperature=0)
     
     prompt_template = """Use the following pieces of context to answer the question at the end. 
     If you don't know the answer, just say that you don't know, don't try to make up an answer.
